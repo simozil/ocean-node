@@ -12,14 +12,19 @@ export PRIVATE_KEY=$PRIVATE_KEY
 
 echo "Starting Ocean Node setup..."
 
-# Function for option 2: Running Ocean Node in Docker
+# Function for option 1: Running Ocean Node in Docker
 run_docker() {
   echo "Running Ocean Node in Docker..."
-  chmod +x scripts/ocean-node-quickstart.sh
-  ./ocean-node/ocean-node-quickstart.sh
+  # Check if the script exists
+  if [ -f "scripts/ocean-node-quickstart.sh" ]; then
+    chmod +x scripts/ocean-node-quickstart.sh
+    ./scripts/ocean-node-quickstart.sh
+  else
+    echo "Error: 'scripts/ocean-node-quickstart.sh' not found. Please ensure the script exists or modify the setup process."
+  fi
 }
 
-# Function for option 3: Running Ocean Node with PM2
+# Function for option 2: Running Ocean Node with PM2
 run_pm2() {
   echo "Installing PM2..."
   npm install -g pm2
@@ -39,7 +44,7 @@ run_pm2() {
   echo "  pm2 delete ocean-node     # Delete the process"
 }
 
-# Function for option 4: Running Ocean Node with NPM
+# Function for option 3: Running Ocean Node with NPM
 run_npm() {
   echo "Checking Node.js version..."
   nvm use || echo "Ensure you're using the correct Node version."
