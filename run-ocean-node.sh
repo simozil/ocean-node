@@ -16,7 +16,7 @@ echo "Starting Ocean Node setup..."
 run_docker() {
   echo "Running Ocean Node in Docker..."
   chmod +x scripts/ocean-node-quickstart.sh
-  ./scripts/ocean-node-quickstart.sh
+  ./ocean-node/ocean-node-quickstart.sh
 }
 
 # Function for option 3: Running Ocean Node with PM2
