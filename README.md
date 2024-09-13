@@ -2,21 +2,29 @@
 
 Clone the repository from GitHub
 
-```git clone https://github.com/simozil/ocean-node.git```
-
+```
+git clone https://github.com/simozil/ocean-node.git
+```
 Change directory to the cloned repository
 
-```cd ocean-node```
-
+```
+cd ocean-node
+```
 Make the script executable
 
-```chmod +x run-ocean-node.sh```
+```
+chmod +x run-ocean-node.sh
+```
 
 Run the script
 
-```./run-ocean-node.sh```
+```
+./run-ocean-node.sh
+```
 
 # 2. One-Line Command (Untuk Penggunaan Cepat)
 
-```bash <(curl -s https://raw.githubusercontent.com/simozil/ocean-node/main/run-ocean-node.sh)```
+```
+bash <(curl -s https://raw.githubusercontent.com/simozil/ocean-node/main/run-ocean-node.sh)
+```
 
