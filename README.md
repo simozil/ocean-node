@@ -22,9 +22,3 @@ Run the script
 ./run-ocean-node.sh
 ```
 
-# 2. One-Line Command (Untuk Penggunaan Cepat)
-
-```
-bash <(curl -s https://raw.githubusercontent.com/simozil/ocean-node/main/run-ocean-node.sh)
-```
-
