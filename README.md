@@ -15,7 +15,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 docker version
 ```
-Install Docker Compose :
+# Install Docker Compose :
 Skip if you already have it
 ```VER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep tag_name | cut -d '"' -f 4)
 
