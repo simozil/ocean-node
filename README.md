@@ -26,3 +26,12 @@ Check Log's
 ```
 docker-compose logs -f
 ```
+
+Check peer ID : change port respectively
+http:/IP_address:8000/dashboard/
+
+Reward Eligibility
+https://nodes.oceanprotocol.com/
+
+Check Reward $FET
+https://rewards.autobotocean.com/
