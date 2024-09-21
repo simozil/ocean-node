@@ -22,3 +22,7 @@ Run the script
 ./run-ocean-node.sh
 ```
 
+Check Log's 
+```
+docker-compose logs -f
+```
