@@ -53,6 +53,10 @@ Check Log's
 ```
 docker-compose logs -f
 ```
+Restart node
+```
+docker-compose restart ocean-node
+```
 Stop node
 ```
 docker-compose down
