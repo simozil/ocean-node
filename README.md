@@ -53,12 +53,15 @@ Check Log's
 ```
 docker-compose logs -f
 ```
+Stop node
 ```
 docker-compose down
 ```
+Start node
 ```
 docker-compose up -d ⁣
 ```
+
 Check peer ID : change port respectively
 http:/IP_address:8000/dashboard/
 
