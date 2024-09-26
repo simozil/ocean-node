@@ -65,6 +65,12 @@ Start node
 ```
 docker-compose up -d ⁣
 ```
+```
+docker-compose config --services
+```
+```
+docker-compose up -d --build
+```
 
 Check peer ID : change port respectively
 http:/IP_address:8000/dashboard/
